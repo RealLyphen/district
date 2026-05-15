@@ -10,7 +10,7 @@ function Home() {
   const [matches, setMatches] = useState([]);
 
   useEffect(() => {
-    const thresholdDate = new Date('2026-05-15T00:00:00+05:30');
+    const thresholdDate = new Date('2026-05-16T00:00:00+05:30');
     const futureMatches = matchesData.filter(m => new Date(m.datetime) >= thresholdDate);
     setMatches(futureMatches);
   }, []);
