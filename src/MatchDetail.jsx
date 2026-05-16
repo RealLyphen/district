@@ -258,7 +258,7 @@ function MatchDetail({ id }) {
       <div className="bottom-buy-bar">
         <div className="price-info">
           <div className="sale-type">General Sale</div>
-          <div className="price-amount" id="dynBasePrice">₹{match.basePrice || '999'} <span className="onwards">onwards</span></div>
+          <div className="price-amount" id="dynBasePrice">₹{match.basePrice || '699'} <span className="onwards">onwards</span></div>
         </div>
         <a href={`/?route=seats&id=${match.id}`} onClick={(e) => {
             e.preventDefault();

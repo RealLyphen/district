@@ -158,32 +158,32 @@ function Seats({ id }) {
             {/* Outer Ring */}
             <path className="std-section booked" d="M 145 55 A 230 230 0 0 1 355 55 L 325 95 A 180 180 0 0 0 175 95 Z"><title>North Central Third Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 355 55 A 230 230 0 0 1 445 145 L 405 175 A 180 180 0 0 0 325 95 Z"><title>North East Third Floor — Sold Out</title></path>
-            <path className={`std-section avail tier-upper ${activeSection?.name === 'Upper Tier — East' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Upper Tier — East", 1599)} d="M 445 145 A 230 230 0 0 1 445 355 L 405 325 A 180 180 0 0 0 405 175 Z"><title>East Stand Second Floor — ₹1,599</title></path>
+            <path className={`std-section avail tier-upper ${activeSection?.name === 'Upper Tier — East' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Upper Tier — East", 1119)} d="M 445 145 A 230 230 0 0 1 445 355 L 405 325 A 180 180 0 0 0 405 175 Z"><title>East Stand Second Floor — ₹1,119</title></path>
             <path className="std-section booked" d="M 445 355 A 230 230 0 0 1 355 445 L 325 405 A 180 180 0 0 0 405 325 Z"><title>South East Third Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 355 445 A 230 230 0 0 1 145 445 L 175 405 A 180 180 0 0 0 325 405 Z"><title>Old Club House Corporate Boxes — Sold Out</title></path>
-            <path className={`std-section avail tier-general ${activeSection?.name === 'Hill B — South West' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Hill B — South West", 999)} d="M 145 445 A 230 230 0 0 1 55 355 L 95 325 A 180 180 0 0 0 175 405 Z"><title>Hill B South West — ₹999</title></path>
+            <path className={`std-section avail tier-general ${activeSection?.name === 'Hill B — South West' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Hill B — South West", 699)} d="M 145 445 A 230 230 0 0 1 55 355 L 95 325 A 180 180 0 0 0 175 405 Z"><title>Hill B South West — ₹699</title></path>
             <path className="std-section booked" d="M 55 355 A 230 230 0 0 1 55 145 L 95 175 A 180 180 0 0 0 95 325 Z"><title>West Stand Third Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 55 145 A 230 230 0 0 1 145 55 L 175 95 A 180 180 0 0 0 95 175 Z"><title>North West Third Floor — Sold Out</title></path>
 
             {/* Middle Ring */}
             <path className="std-section booked" d="M 175 95 A 180 180 0 0 1 325 95 L 305 130 A 140 140 0 0 0 195 130 Z"><title>North Central Second Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 325 95 A 180 180 0 0 1 405 175 L 370 195 A 140 140 0 0 0 305 130 Z"><title>North East Second Floor — Sold Out</title></path>
-            <path className={`std-section avail tier-premium ${activeSection?.name === 'East Stand — First Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "East Stand — First Floor", 4999)} d="M 405 175 A 180 180 0 0 1 405 325 L 370 305 A 140 140 0 0 0 370 195 Z"><title>East Stand First Floor — ₹4,999</title></path>
-            <path className={`std-section avail tier-general ${activeSection?.name === 'Hill A — Super Hospitality' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Hill A — Super Hospitality", 999)} d="M 405 325 A 180 180 0 0 1 325 405 L 305 370 A 140 140 0 0 0 370 305 Z"><title>Hill A Super Hospitality — ₹999</title></path>
+            <path className={`std-section avail tier-premium ${activeSection?.name === 'East Stand — First Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "East Stand — First Floor", 4699)} d="M 405 175 A 180 180 0 0 1 405 325 L 370 305 A 140 140 0 0 0 370 195 Z"><title>East Stand First Floor — ₹4,699</title></path>
+            <path className={`std-section avail tier-general ${activeSection?.name === 'Hill A — Super Hospitality' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "Hill A — Super Hospitality", 699)} d="M 405 325 A 180 180 0 0 1 325 405 L 305 370 A 140 140 0 0 0 370 305 Z"><title>Hill A Super Hospitality — ₹699</title></path>
             <path className="std-section booked" d="M 325 405 A 180 180 0 0 1 175 405 L 195 370 A 140 140 0 0 0 305 370 Z"><title>Old Club House First Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 175 405 A 180 180 0 0 1 95 325 L 130 305 A 140 140 0 0 0 195 370 Z"><title>West Corporate Boxes — Sold Out</title></path>
-            <path className={`std-section avail tier-upper ${activeSection?.name === 'West Stand — Second Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "West Stand — Second Floor", 1599)} d="M 95 325 A 180 180 0 0 1 95 175 L 130 195 A 140 140 0 0 0 130 305 Z"><title>West Stand Second Floor — ₹1,599</title></path>
-            <path className={`std-section avail tier-premium-first ${activeSection?.name === 'North West — First Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "North West — First Floor Premium", 4999)} d="M 95 175 A 180 180 0 0 1 175 95 L 195 130 A 140 140 0 0 0 130 195 Z"><title>North West First Floor Premium — ₹4,999</title></path>
+            <path className={`std-section avail tier-upper ${activeSection?.name === 'West Stand — Second Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "West Stand — Second Floor", 1119)} d="M 95 325 A 180 180 0 0 1 95 175 L 130 195 A 140 140 0 0 0 130 305 Z"><title>West Stand Second Floor — ₹1,119</title></path>
+            <path className={`std-section avail tier-premium-first ${activeSection?.name === 'North West — First Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "North West — First Floor Premium", 4699)} d="M 95 175 A 180 180 0 0 1 175 95 L 195 130 A 140 140 0 0 0 130 195 Z"><title>North West First Floor Premium — ₹4,699</title></path>
 
             {/* Inner Ring */}
             <path className="std-section booked" d="M 195 130 A 140 140 0 0 1 305 130 L 290 165 A 100 100 0 0 0 210 165 Z"><title>North Central Ground Floor — Sold Out</title></path>
-            <path className={`std-section avail tier-corporate ${activeSection?.name === 'N.E. Ground Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "N.E. Ground Floor Premium", 6999)} d="M 305 130 A 140 140 0 0 1 370 195 L 335 210 A 100 100 0 0 0 290 165 Z"><title>N.E. Ground Floor Premium — ₹6,999</title></path>
+            <path className={`std-section avail tier-corporate ${activeSection?.name === 'N.E. Ground Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "N.E. Ground Floor Premium", 6699)} d="M 305 130 A 140 140 0 0 1 370 195 L 335 210 A 100 100 0 0 0 290 165 Z"><title>N.E. Ground Floor Premium — ₹6,699</title></path>
             <path className="std-section booked" d="M 370 195 A 140 140 0 0 1 370 305 L 335 290 A 100 100 0 0 0 335 210 Z"><title>East Stand Ground Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 370 305 A 140 140 0 0 1 305 370 L 290 335 A 100 100 0 0 0 335 290 Z"><title>South East Ground Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 305 370 A 140 140 0 0 1 195 370 L 210 335 A 100 100 0 0 0 290 335 Z"><title>Pavilion Ground Floor — Sold Out</title></path>
             <path className="std-section booked" d="M 195 370 A 140 140 0 0 1 130 305 L 165 290 A 100 100 0 0 0 210 335 Z"><title>DC Lounge — Sold Out</title></path>
-            <path className={`std-section avail tier-pavilion ${activeSection?.name === 'West Stand — Ground Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "West Stand — Ground Floor", 8999)} d="M 130 305 A 140 140 0 0 1 130 195 L 165 210 A 100 100 0 0 0 165 290 Z"><title>West Stand Ground Floor — ₹8,999</title></path>
-            <path className={`std-section avail tier-corporate ${activeSection?.name === 'N.W. Ground Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "N.W. Ground Floor Premium", 6999)} d="M 130 195 A 140 140 0 0 1 195 130 L 210 165 A 100 100 0 0 0 165 210 Z"><title>N.W. Ground Floor Premium — ₹6,999</title></path>
+            <path className={`std-section avail tier-pavilion ${activeSection?.name === 'West Stand — Ground Floor' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "West Stand — Ground Floor", 8699)} d="M 130 305 A 140 140 0 0 1 130 195 L 165 210 A 100 100 0 0 0 165 290 Z"><title>West Stand Ground Floor — ₹8,699</title></path>
+            <path className={`std-section avail tier-corporate ${activeSection?.name === 'N.W. Ground Floor Premium' ? 'active-section' : ''}`} onClick={(e) => handleSectionClick(e, "N.W. Ground Floor Premium", 6699)} d="M 130 195 A 140 140 0 0 1 195 130 L 210 165 A 100 100 0 0 0 165 210 Z"><title>N.W. Ground Floor Premium — ₹6,699</title></path>
 
             {/* Pitch (center) */}
             <ellipse cx="250" cy="250" rx="55" ry="55" fill="#1a1a1a" stroke="#333" strokeWidth="1.5"/>
@@ -195,24 +195,24 @@ function Seats({ id }) {
             <text x="75" y="253" textAnchor="middle" fill="#fff" fontSize="6.5" fontWeight="700" transform="rotate(-90, 75, 253)">WEST 3RD FLOOR</text>
             <text x="250" y="425" textAnchor="middle" fill="#666" fontSize="7" fontWeight="600">SOUTH — CLUB HOUSE</text>
 
-            <text className="price-label" x="380" y="250" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹1,599</text>
-            <text className="price-label" x="135" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹8,999</text>
-            <text className="price-label" x="155" y="155" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹4,999</text>
-            <text className="price-label" x="340" y="175" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹6,999</text>
-            <text className="price-label" x="160" y="345" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹6,999</text>
-            <text className="price-label" x="365" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹4,999</text>
-            <text className="price-label" x="120" y="370" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹999</text>
-            <text className="price-label" x="370" y="340" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹999</text>
-            <text className="price-label" x="120" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹1,599</text>
+            <text className="price-label" x="380" y="250" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹1,119</text>
+            <text className="price-label" x="135" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹8,699</text>
+            <text className="price-label" x="155" y="155" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹4,699</text>
+            <text className="price-label" x="340" y="175" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹6,699</text>
+            <text className="price-label" x="160" y="345" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹6,699</text>
+            <text className="price-label" x="365" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹4,699</text>
+            <text className="price-label" x="120" y="370" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹699</text>
+            <text className="price-label" x="370" y="340" textAnchor="middle" fill="#fff" fontSize="8" fontWeight="800">₹699</text>
+            <text className="price-label" x="120" y="250" textAnchor="middle" fill="#fff" fontSize="7" fontWeight="800">₹1,119</text>
           </svg>
         </div>
 
         <div className="map-legend">
-          <div className="legend-item"><span className="legend-dot" style={{background:'#FFD700'}}></span> Pavilion ₹8,999</div>
-          <div className="legend-item"><span className="legend-dot" style={{background:'#A78BFA'}}></span> Corporate ₹6,999</div>
-          <div className="legend-item"><span className="legend-dot" style={{background:'#60A5FA'}}></span> Premium ₹4,999</div>
-          <div className="legend-item"><span className="legend-dot" style={{background:'#34D399'}}></span> Upper ₹1,599</div>
-          <div className="legend-item"><span className="legend-dot" style={{background:'#FB923C'}}></span> General ₹999</div>
+          <div className="legend-item"><span className="legend-dot" style={{background:'#FFD700'}}></span> Pavilion ₹8,699</div>
+          <div className="legend-item"><span className="legend-dot" style={{background:'#A78BFA'}}></span> Corporate ₹6,699</div>
+          <div className="legend-item"><span className="legend-dot" style={{background:'#60A5FA'}}></span> Premium ₹4,699</div>
+          <div className="legend-item"><span className="legend-dot" style={{background:'#34D399'}}></span> Upper ₹1,119</div>
+          <div className="legend-item"><span className="legend-dot" style={{background:'#FB923C'}}></span> General ₹699</div>
           <div className="legend-item"><span className="legend-dot" style={{background:'#2C2C2C'}}></span> Sold Out</div>
         </div>
       </div>
@@ -260,8 +260,8 @@ function Seats({ id }) {
             <h2>Select Seats</h2>
             <span className="sub-text">₹{activeSection?.price.toLocaleString()} per seat</span>
           </div>
-          <div className="overlay-demand-badge" style={{ display: activeSection?.price >= 4999 ? 'block' : 'none' }}>
-            {activeSection?.price >= 8999 ? '🔥 High demand' : '⚡ Filling fast'}
+          <div className="overlay-demand-badge" style={{ display: activeSection?.price >= 4699 ? 'block' : 'none' }}>
+            {activeSection?.price >= 8699 ? '🔥 High demand' : '⚡ Filling fast'}
           </div>
         </div>
         

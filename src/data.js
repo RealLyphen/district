@@ -82,7 +82,7 @@ export const data =
       "datetime": "2026-05-03T19:30:00+05:30",
       "venue": "Narendra Modi Stadium, Ahmedabad",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -111,7 +111,7 @@ export const data =
       "datetime": "2026-05-04T19:30:00+05:30",
       "venue": "Wankhede Stadium, Mumbai",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -140,7 +140,7 @@ export const data =
       "datetime": "2026-05-05T19:30:00+05:30",
       "venue": "Arun Jaitley Stadium, Delhi",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -169,7 +169,7 @@ export const data =
       "datetime": "2026-05-06T19:30:00+05:30",
       "venue": "Rajiv Gandhi International Stadium, Hyderabad",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -198,7 +198,7 @@ export const data =
       "datetime": "2026-05-07T19:30:00+05:30",
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -227,7 +227,7 @@ export const data =
       "datetime": "2026-05-08T19:30:00+05:30",
       "venue": "Arun Jaitley Stadium, Delhi",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -256,7 +256,7 @@ export const data =
       "datetime": "2026-05-09T19:30:00+05:30",
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -285,7 +285,7 @@ export const data =
       "datetime": "2026-05-10T15:30:00+05:30",
       "venue": "MA Chidambaram Stadium, Chennai",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -314,7 +314,7 @@ export const data =
       "datetime": "2026-05-10T19:30:00+05:30",
       "venue": "Shaheed Veer Narayan Singh International Cricket Stadium, Raipur",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -343,7 +343,7 @@ export const data =
       "datetime": "2026-05-11T19:30:00+05:30",
       "venue": "Himachal Pradesh Cricket Association Stadium, Dharamshala",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -372,7 +372,7 @@ export const data =
       "datetime": "2026-05-12T19:30:00+05:30",
       "venue": "Narendra Modi Stadium, Ahmedabad",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -401,7 +401,7 @@ export const data =
       "datetime": "2026-05-13T19:30:00+05:30",
       "venue": "Shaheed Veer Narayan Singh International Cricket Stadium, Raipur",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -430,7 +430,7 @@ export const data =
       "datetime": "2026-05-14T19:30:00+05:30",
       "venue": "Himachal Pradesh Cricket Association Stadium, Dharamshala",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -459,7 +459,7 @@ export const data =
       "datetime": "2026-05-15T19:30:00+05:30",
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -488,7 +488,7 @@ export const data =
       "datetime": "2026-05-16T19:30:00+05:30",
       "venue": "Eden Gardens, Kolkata",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -517,7 +517,7 @@ export const data =
       "datetime": "2026-05-17T15:30:00+05:30",
       "venue": "Himachal Pradesh Cricket Association Stadium, Dharamshala",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -546,7 +546,7 @@ export const data =
       "datetime": "2026-05-17T19:30:00+05:30",
       "venue": "Arun Jaitley Stadium, Delhi",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -575,7 +575,7 @@ export const data =
       "datetime": "2026-05-18T19:30:00+05:30",
       "venue": "MA Chidambaram Stadium, Chennai",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -604,7 +604,7 @@ export const data =
       "datetime": "2026-05-19T19:30:00+05:30",
       "venue": "Sawai Mansingh Stadium, Jaipur",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -633,7 +633,7 @@ export const data =
       "datetime": "2026-05-20T19:30:00+05:30",
       "venue": "Eden Gardens, Kolkata",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -662,7 +662,7 @@ export const data =
       "datetime": "2026-05-21T19:30:00+05:30",
       "venue": "Narendra Modi Stadium, Ahmedabad",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -691,7 +691,7 @@ export const data =
       "datetime": "2026-05-22T19:30:00+05:30",
       "venue": "Rajiv Gandhi International Stadium, Hyderabad",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -720,7 +720,7 @@ export const data =
       "datetime": "2026-05-23T19:30:00+05:30",
       "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -749,7 +749,7 @@ export const data =
       "datetime": "2026-05-24T15:30:00+05:30",
       "venue": "Wankhede Stadium, Mumbai",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -778,7 +778,7 @@ export const data =
       "datetime": "2026-05-24T19:30:00+05:30",
       "venue": "Eden Gardens, Kolkata",
       "distance": "500 km away",
-      "basePrice": 2000,
+      "basePrice": 1400,
       "status": "live"
     },
     {
@@ -807,7 +807,7 @@ export const data =
       "datetime": "2026-05-26T19:30:00+05:30",
       "venue": "Narendra Modi Stadium, Ahmedabad",
       "distance": "600.0 km away",
-      "basePrice": 4000,
+      "basePrice": 2800,
       "status": "coming_soon"
     },
     {
@@ -836,7 +836,7 @@ export const data =
       "datetime": "2026-05-31T19:30:00+05:30",
       "venue": "M. A. Chidambaram Stadium, Chennai",
       "distance": "1400.0 km away",
-      "basePrice": 5000,
+      "basePrice": 3500,
       "status": "coming_soon"
     }
   ]

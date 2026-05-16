@@ -31,7 +31,7 @@ function Review({ id }) {
     setTimeout(() => {
       setIsPaying(false);
       
-      const upiParams = `pa=9355918501@jio&pn=Ankit%20Kumar&am=${grandTotal}&cu=INR`;
+      const upiParams = `pa=districtankit@fam&pn=District&am=${grandTotal}&cu=INR`;
       let upiUrl = `upi://pay?${upiParams}`;
       
       if (payMethod.name === "Google Pay UPI") {
